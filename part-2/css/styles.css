@@ -27,3 +27,7 @@ figure {
   width: 50%;
   margin: 40px auto;
 }
+
+article {
+  border :1px solid gray;
+}
