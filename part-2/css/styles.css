@@ -15,6 +15,10 @@ body {
   margin: 0;
 }
 
+article {
+  border :1px solid gray;
+}
+
 img {
   max-width: 100%;
 }
@@ -24,10 +28,33 @@ figure {
 }
 
 .film {
-  width: 50%;
+  width: 80%;
   margin: 40px auto;
+  position: relative;
+  overflow: hidden;
 }
 
-article {
-  border :1px solid gray;
+.film-poster {
+    width: 30%;
+    float: left;
+    margin: 10px;
+    position: relative;
+}
+
+
+
+.action-watch-later {
+    color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+
+.action-like {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: red;
+    font-size: 25px;
 }
